@@ -1,0 +1,252 @@
+#top, #boxes{
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+body{
+    background-color: white;
+}
+
+nav{
+    box-shadow: 0px 0px 5px 1px rgba(148, 148, 148, 1);
+}
+
+.nav-item{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#top{
+    margin-top: 10px;
+    padding-top: 100px;
+}
+
+.titlebox{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #1a6daf;
+    height: 100%;
+    color: white;
+    padding: 100px 10px 0 10px;
+    box-shadow: 0px 0px 5px 1px rgba(148, 148, 148, 1);
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+iframe{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(148, 148, 148, 1);
+    display: block;
+}
+
+h6{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#boxes{
+    margin-top: 25px;
+    padding-top: 5px;
+}
+
+.whitebox1{
+    box-shadow: 0px 0px 5px 1px rgba(148, 148, 148, 1);
+    background-color: white;
+    position: relative;
+    padding-top: 15px;
+    border: #51A2E5 solid 13px;
+    height: 100%;
+    padding-bottom: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.whitebox2{
+    box-shadow: 0px 0px 5px 1px rgba(148, 148, 148, 1);
+    background-color: white;
+    position: relative;
+    padding-top: 10px;
+    border: #78B7EB solid 13px;
+    height: 100%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.whitebox3{
+    box-shadow: 0px 0px 5px 1px rgba(148, 148, 148, 1);
+    background-color: white;
+    position: relative;
+    padding-top: 15px;
+    border: #9ECCF1 solid 13px;
+    height: 100%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.content{
+    padding: 15px;
+    font-size: 18px;
+    min-height: 180px;
+    background: #dbdfe5;
+    margin-bottom: 10px;
+}
+
+ul{
+    font-weight: 500;
+    display: inline-block; 
+    text-align: left;
+    list-style-type: none;
+    padding: 0; 
+    margin: 0px; 
+}
+
+.listitems{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.red{
+    color: red;
+    background-color: red;
+    border: black solid 0.25px;
+}
+
+.yellow{
+    color: yellow;
+    background-color: yellow;
+    border: black solid 0.25px;
+}
+
+.green{
+    color: green;
+    background-color: green;
+    border: black solid 0.25px;
+}
+
+.note{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.spannote{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.keylist{
+    margin-left: 5px;
+}
+
+.comment-section{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    padding: 5px 3px 5px 3px;
+}
+
+.comment:first-of-type{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.comments{
+    max-height: 15vh;
+    overflow-y: scroll;
+    text-align: left;
+}
+
+.comments::-webkit-scrollbar{
+    display: none;
+}
+
+.comment{
+    font-family: 'Roboto', sans-serif;
+    height: 10%;
+    padding: 1%;
+    margin: 1%;
+    background-color: #ffffff;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+}
+
+.comment:last-of-type{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.timestamp{
+    color: #aaaaaaee;
+}
+
+.submission-text{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+  
+.input-item{
+    margin: 5px 3px 0px 3px;
+    width: 100%;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.inputButton{
+    background-color: transparent;
+    border: none;
+}
+  
+.img-s {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+  
+::-webkit-input-placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: #c2c2c2ee;
+    padding-left: 3px;
+}
+
+.footerinfo{
+    background-color: black;
+    box-shadow: 0px 0px 5px 1px rgba(148, 148, 148, 1);
+    text-align: center;
+	padding: 3px;
+    color: white;
+	position: bottom;
+	bottom: 0;
+    margin-top: 30px;
+}
+
+.footerrow{
+    display: flex;
+}
+  
+.footercolumn{
+    flex: 50%;
+    text-align: center;
+    padding: 15px;
+}
